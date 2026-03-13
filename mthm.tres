@@ -1,0 +1,117 @@
+[gd_resource type="Theme" load_steps=7 format=3 uid="uid://c4rsbcea8bwob"]
+
+[ext_resource type="FontVariation" uid="uid://mjhns3uxipxr" path="res://font.tres" id="1_qyqen"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fqee0"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(0.831373, 0.831373, 0.666667, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0x8b2"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(1, 1, 1, 0.75)
+draw_center = false
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.909804, 0.529412, 0.117647, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 5
+expand_margin_left = 5.0
+expand_margin_top = 5.0
+expand_margin_right = 5.0
+expand_margin_bottom = 5.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bnyau"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(0.729412, 0.831373, 0.666667, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 5
+expand_margin_left = 5.0
+expand_margin_top = 5.0
+expand_margin_right = 5.0
+expand_margin_bottom = 5.0
+shadow_color = Color(0.729412, 0.831373, 0.666667, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8bluy"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(0.929412, 0.705882, 0.345098, 1)
+border_color = Color(0.909804, 0.529412, 0.117647, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+corner_detail = 10
+expand_margin_left = 5.0
+expand_margin_top = 5.0
+expand_margin_right = 5.0
+expand_margin_bottom = 5.0
+shadow_color = Color(0.729412, 0.831373, 0.666667, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5rd2b"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(0.729412, 0.831373, 0.666667, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 5
+
+[resource]
+default_font = ExtResource("1_qyqen")
+Button/colors/font_color = Color(0.921569, 0.960784, 0.87451, 1)
+Button/colors/font_disabled_color = Color(0.875, 0.875, 0.875, 0.5)
+Button/colors/font_focus_color = Color(0.921569, 0.960784, 0.87451, 1)
+Button/colors/font_hover_color = Color(0.921569, 0.960784, 0.87451, 1)
+Button/colors/font_hover_pressed_color = Color(0.921569, 0.960784, 0.87451, 1)
+Button/colors/font_outline_color = Color(0.909804, 0.529412, 0.117647, 1)
+Button/colors/font_pressed_color = Color(0.921569, 0.960784, 0.87451, 1)
+Button/colors/icon_disabled_color = Color(1, 1, 1, 0.4)
+Button/colors/icon_focus_color = Color(1, 1, 1, 1)
+Button/colors/icon_hover_color = Color(1, 1, 1, 1)
+Button/colors/icon_hover_pressed_color = Color(1, 1, 1, 1)
+Button/colors/icon_normal_color = Color(1, 1, 1, 1)
+Button/colors/icon_pressed_color = Color(1, 1, 1, 1)
+Button/constants/align_to_largest_stylebox = 0
+Button/constants/h_separation = 4
+Button/constants/icon_max_width = 0
+Button/constants/outline_size = 0
+Button/font_sizes/font_size = 50
+Button/styles/disabled = SubResource("StyleBoxFlat_fqee0")
+Button/styles/focus = SubResource("StyleBoxFlat_0x8b2")
+Button/styles/hover = SubResource("StyleBoxFlat_bnyau")
+Button/styles/normal = SubResource("StyleBoxFlat_8bluy")
+Button/styles/pressed = SubResource("StyleBoxFlat_5rd2b")
+Label/colors/font_color = Color(0.929412, 0.705882, 0.345098, 1)
+Label/colors/font_outline_color = Color(0.909804, 0.529412, 0.117647, 1)
+Label/colors/font_shadow_color = Color(0.729412, 0.831373, 0.666667, 1)
+Label/constants/outline_size = 0
+Label/constants/shadow_offset_x = 3
+Label/constants/shadow_offset_y = 4
+Label/font_sizes/font_size = 50
